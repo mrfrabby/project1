@@ -1,0 +1,126 @@
+
+*{
+    box-sizing: border-box;
+    margin: o;
+    padding: o;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.con{
+    height: 25vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+       
+}
+span{
+    color: #09B451;
+    font-size: 46px;
+    width: 45%;
+}
+
+.con2{
+    width: 100% auto;
+    height: 16vh;
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    margin:0px auto;
+}
+
+.con2 ul li{
+    list-style-type: none;
+    float: left;
+    margin: 17px;
+}
+
+.con2 ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+#nav2{
+    width: 245px;
+    margin: -15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav2 li a{
+    color: #09B451;
+    text-decoration: none;
+}
+#nav2 li{
+    list-style-type: none;
+}
+
+.nav3 a{
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+h1{
+    width: 50%;
+    height: 15vh;
+    font-family: sans-serif;
+    font-size: 45px;
+    margin:110px 60px 20px;
+    color: #000000;
+    
+}
+
+Button{
+    background-color: rgb(40, 182, 63);
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+    padding: 15px;
+    font-size: 10px;
+    border-radius: 10px;
+    display: inline;
+    margin-top: 35px;
+    border: none;
+}
+
+.img-pic img{
+    top: 9px;
+    left: 170px;
+    border-radius: 40px 40px 100px 40px;
+    float: right;
+    margin-top: -230px;
+    margin-right: 100px;
+    display: inline;
+}
+
+.img-pic2 img{
+    float: right;
+    display: inline;
+    width: 250px;
+    height: 200px;
+    border-radius: 14px 14px 30px 14px;
+    margin-right: -150px;
+    border: none;
+}
+
+.img-pic3 img{
+    display: inline;
+    float: right;
+    width: 150px;
+    margin-right: -575px;
+    margin-top: 70px;
+}
+
+.img-pic4 img{
+    display: inline;
+    float: right;
+    margin-right: -585px;
+    margin-top: -270px;
+    position: relative;
+    z-index: -1;
+    border-radius: 14px 60px 30px 14px;
+    height:565px;
+}
+
